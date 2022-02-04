@@ -30,17 +30,17 @@
     color:black;
 }
 
-#birdlogo {
-    height: 110px;
-    transform:rotate(15deg);
-}
-
-.logo-container > p {
+.logo-container p {
     text-transform:uppercase;
     padding:10px;
     font-family:fantasy;
     font-size:2em;
     display:inline;
+}
+
+#birdlogo {
+    height: 110px;
+    transform:rotate(15deg);
 }
 
 .main-container {
@@ -96,7 +96,7 @@ h2 {
     position: relative;
     min-height: 100vh; 
 }
-    /** 100% of the parent's element height; tried with 100% but doesn't keep 
+    /** 100viewport height; tried with 100% but doesn't keep 
     footer at bottom **/
 
 .content-wrapper {
