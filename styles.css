@@ -11,7 +11,8 @@
     padding:10px;
     height:20px; 
     border-bottom:1px solid transparent;
-    transform:border-bottom 0.5s;
+    transform:border-bottom;
+    /** transition:bottom-border 0.5s; either can be used, transitions need a time **/
 }
 
 .nav-link-wrapper a {
@@ -19,7 +20,8 @@
     text-decoration:none;
     text-transform:uppercase;
     color:grey;
-    transform:color 0.5s;
+    transform:color;
+    /** transition:color 0.5s; either can be used, transitions need a time **/
 }
 
 .nav-link-wrapper:hover {
