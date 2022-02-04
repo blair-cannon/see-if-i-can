@@ -1,1 +1,44 @@
+.top-wrapper {
+    display:column;
+    padding:30px;
+}
 
+.nav {
+    display:flex;
+}
+
+.nav-link-wrapper {
+    padding:10px;
+    height:20px; 
+    border-bottom:1px solid transparent;
+    transform:border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    font-size:1em;
+    text-decoration:none;
+    text-transform:uppercase;
+    color:grey;
+    transform:color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom:1px solid black
+}
+
+.nav-link-wrapper a:hover {
+    color:black;
+}
+
+#birdlogo {
+    height: 110px;
+    transform:rotate(15deg);
+}
+
+.logo-container > p {
+    text-transform:uppercase;
+    padding:10px;
+    font-family:fantasy;
+    font-size:1.7em;
+    display:inline;
+}
